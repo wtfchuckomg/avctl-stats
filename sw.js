@@ -1,10 +1,10 @@
 /* Press Box offline cache.
-   Built by build.py, which stamps 16326a399256 with the page's own hash, so every new build is a new cache.
+   Built by build.py, which stamps 31f246d1d139 with the page's own hash, so every new build is a new cache.
 
    The page is one big file. Keep the last good copy of it, and of the season files the pages read, so the
    site opens at a field with no signal. The network is still asked first whenever it can answer quickly:
    a cached app that won't update is worse than a slow one. */
-const VER = '16326a399256';
+const VER = '31f246d1d139';
 const SHELL = 'pb-shell-' + VER, DATA = 'pb-data-' + VER;
 const NET_MS = 3000;                 // how long to wait for the network before reaching for the cache
 
